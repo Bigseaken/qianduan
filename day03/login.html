@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>登陆页面</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta data-n-head="true" name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<div class="container">
+    <!-- 页面头部-->
+    <div class="header"><span>x</span><span class="header-right">免密码登陆</span></div>
+    <div class="passwd-login"><h2>密码登陆</h2></div>
+    <!-- 输入框 -->
+    <div class="center">
+        <div>
+            <input class="mobile" placeholder="手机或邮箱"/>
+        </div>
+        <div>
+            <input class="password" placeholder="密码"/>
+        </div>
+        <div>
+            <div class="login-btn">登陆</div>
+        </div>
+        <div class="login-btn-bottom"><span class="left">海外手机登陆</span><span class="right">需要帮助</span></div>
+    </div>
+</div>
+<style>
+    .container {
+        font-family: "Microsoft YaHei"
+    }
+
+    .header {
+        font-size: 18px;
+        font-family: unset;
+    }
+
+    .header-right {
+        position: absolute;
+        right: 10px;
+    }
+
+    .center {
+        /*margin: 0 auto;*/
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    input {
+        height: 40px;
+        width: 220px;
+        border: 0.5px solid;
+    }
+
+    .mobile {
+        border-bottom: none;
+        border-top-left-radius: 4.5px;
+        border-top-right-radius: 4.5px;
+    }
+
+    .password {
+        border-bottom-left-radius: 4.5px;
+        border-bottom-right-radius: 4.5px;
+    }
+
+    .login-btn {
+        background-color: #43b8ed;
+        width: 220px;
+        height: 30px;
+        color: white;
+        margin-top: 30px;
+        padding-top: 10px;
+        border-radius: 4.5px;
+        position: relative;
+        left: 19%;
+    }
+    .login-btn-bottom{
+        margin-top: 20px;
+        text-align: initial;
+        width: 220px;
+        color: #e3e3e3;
+    }
+    .login-btn-bottom .left{
+        position: relative;
+        left: 59px;
+    }
+    .login-btn-bottom .right{
+        position: relative;
+        left: 119px;
+    }
+    .passwd-login{
+        text-align: center;
+    }
+</style>
+</body>
+
+</html>
